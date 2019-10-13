@@ -1,0 +1,530 @@
+img {
+    max-width: 100%;
+	height: auto;
+}
+
+/* =====================- Max Width 1175px -===================== */
+@media screen and (max-width: 1175px) {
+
+	html {
+		min-width: initial;
+	}
+
+	.container,
+	#container,
+	.top_nav_container,
+	#header_grid_container,
+	.myFooter_content_container,
+	.myFooter_bottom_container {
+		width: 960px;
+		max-width: none;
+		min-width: initial;
+		padding: 15px 0;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.top_nav_container,
+	#header_grid_container,
+	.myFooter_content_container,
+	.myFooter_bottom_container {
+		padding: 0;
+	}
+
+	.row {
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	.logo {
+		margin-right: 0;
+	}
+
+	#search {
+		margin-left: 0;
+	}
+
+	.mainmenu {
+		margin-right: 10px;
+	}
+	.mainmenu li {
+		float: right;
+	}
+	.mainmenu li a {
+		display: block;
+		margin-right: 5px;
+	}
+.col-md-6 ,.col-md-4,.col-md-8{
+		width: 100%;
+	}
+.howmuch .row{
+    margin:0 -15px;
+}
+.howmuch .col-md-4{
+    width:50%;
+}
+
+	.howtoearn .helpoptions {
+		margin: 0;
+	}
+	.howtoearn .helpoptions.how2 {
+		margin-top: 16px;
+	}
+	.helpoptions h5 {
+		margin-bottom: 8px;
+		text-align: center;
+	}
+	.helpoptions p {
+		text-align: justify;  
+		-moz-text-align-last: center;
+		text-align-last: center;
+	}
+	.helpoptions img {
+		display: block;
+		margin: 0 auto 8px auto;
+	}
+	.helpoptions .hlfp {
+		width: 80%;
+	}
+
+	.benefits ul {
+		padding-right: 0;
+	}
+	.benefits ul li {
+		width: 37%;
+		padding-right: 25px;
+	}
+
+	.filess ul {
+		margin: 0;
+	}
+
+	.myFooter_content_container h3 {
+		margin-bottom: 15px;
+	}
+	.myFooter_content_container .footermenu li {
+		width: 100%;
+	}
+	.myFooter_content_container .stat {
+		font-size: 10px;
+	}
+	.myFooter_content_container .col-md-6 {
+		width: 100%;
+		margin-bottom: 7px;
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.myFooter_content_container .col-md-6:last-child {
+		margin-bottom: 0;
+	}
+	.myFooter_content_container .social i {
+		margin-left: 6px;
+	}
+
+	/*===- Inside Page -===*/
+	.content.with-half {
+		width: 580px;
+	}
+	#column-left.half, #column-right.half {
+		width: 370px;
+	}
+
+	.content.with-sidebar {
+		width: 680px;
+	}
+}
+
+
+/* =====================- Max Width 975px -===================== */
+@media screen and (max-width: 975px) {
+
+	.container,
+	#container,
+	.top_nav_container,
+	#header_grid_container,
+	.myFooter_content_container,
+	.myFooter_bottom_container {
+		width: 760px;
+	}
+
+	.logo {
+		margin-right: 0;
+	}
+
+	.mainmenu {
+		float: left;
+		margin-right: 0;
+	}
+
+	#search {
+		width: 100%;
+		margin-top: 15px;
+	}
+
+	#homeintro .container {
+		top: 40px;
+	}
+
+	.homeoptions .col-md-3 {
+		width: 50%;
+	}
+
+	.helpoptions .hlfp {
+		width: 70%;
+	}
+
+	.benefits ul {
+		padding-top: 0;
+	}
+	.benefits ul li {
+		width: 100%;
+	}
+
+	.filess {
+		padding-bottom: 0;
+	}
+	.filess .col-md-4 {
+		width: 100%;
+		padding-right: 0;
+		padding-left: 0;
+		margin-bottom: 40px;
+	}
+
+	.shoplist {
+		margin: 0;
+	}
+	.shoplist .owl-next,
+	.shoplist .owl-prev {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		margin: auto !important;
+	}
+	.shoplist .owl-next {
+		right: -50px;
+	}
+	.shoplist .owl-prev {
+		left: -50px;
+	}
+	.shoplist .owl-prev:before,
+	.shoplist .owl-next:before {
+		top: 0;
+	}
+	.shoplist .owl-next i,
+	.shoplist .owl-prev i {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+	}
+
+	.myFooter_content_container .col-md-3 {
+		width: 100%;
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.myFooter_content_container .col-md-3:nth-child(odd) {
+		padding-left: 0px;
+	}
+	.myFooter_content_container .col-md-3:nth-child(even) {
+		padding-right: 0px;
+	}
+	.myFooter_content_container .footermenu li {
+		width: 50%;
+	}
+	.myFooter_content_container .col-md-4 {
+		margin-bottom: 16px;
+	}
+	.myFooter_content_container .stat {
+		font-size: 12px;
+	}
+	.myFooter_content_container .col-md-6 {
+		width: 100%;
+		margin-bottom: 0;
+		padding-left: 0px;
+	}
+	.myFooter_content_container .col-md-6:last-child {
+		padding-right: 0px;
+		padding-left: 0;
+	}
+
+	/*===- Inside Page -===*/
+	.product-info > .left {
+		display: none;
+	}
+	.product-info > .left + .right {
+		margin-left: 0;
+	}
+
+	.content.with-half {
+		width: 100%;
+		margin-bottom: 5px;
+	}
+	#column-left.half, #column-right.half {
+		width: 100%;
+		margin-right: 0;
+	}
+
+	.content.with-sidebar {
+		width: 100%;
+		margin-bottom: 5px;
+	}
+	#column-left {
+		width: 100%;
+		margin-right: 0;
+	}
+}
+
+
+/* =====================- Max Width 755px -===================== */
+@media screen and (max-width: 755px) {
+
+	.container,
+	#container,
+	.top_nav_container,
+	#header_grid_container,
+	.myFooter_content_container,
+	.myFooter_bottom_container {
+        width: 100%;
+		padding: 15px;
+		overflow: hidden;
+	}
+	.top_nav_container,
+	#header_grid_container,
+	.myFooter_content_container,
+	.myFooter_bottom_container {
+		padding: 0 15px;
+	}
+
+	.logo {
+		width: 100%;
+	}
+	.logo h1 {
+		margin: 0 auto;
+	}
+
+	.mainmenu {
+		width: 100%;
+		margin-top: 5px;
+		text-align: center;
+	}
+	.mainmenu li {
+		float: none;
+		display: inline-block;
+    line-height: 20px;
+	}
+
+	.bestShops .owl-nav {
+		display: none;
+	}
+	.bestShops .owl-dots {
+		display: block;
+	}
+
+	/*===- Inside Page -===*/
+	.product-info > .left {
+		display: none;
+	}
+	.product-info > .left + .right {
+		margin-left: 0;
+	}
+
+	#column-left {
+		display: none;
+	}
+	#column-left.half, #column-right.half {
+		display: block;
+	}
+
+	.mobile-menu-trigger {
+		display: block;
+	}
+}
+
+
+/* =====================- Max Width 480px -===================== */
+@media screen and (max-width: 510px) {
+
+	.top_nav ul {
+		display: none;
+	}
+	.top_nav ul#pnllogin, .top_nav ul#pnllinks {
+		float: right !important;
+		display: block;
+	}
+	.top_nav ul li a {
+		padding-right: 5px;
+		padding-left: 3px;
+	}
+
+	.mainmenu li {
+		margin-bottom: 10px;
+	}
+	.mainmenu li a {
+		padding: 4px 15px;
+	}
+
+	#search {
+		margin-top: 5px;
+	}
+
+	.homeintro {
+		height: 580px !important;
+		background-size: cover;
+	}
+	#animated-canvas {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+	}
+	.btn-orange, .btn-green {
+		width: 45%;
+		float: right;
+		margin: 0;
+		margin-left: 5%;
+		padding: 7px 0;
+	}
+	.btn-green {
+		float: left;
+		margin-left: 0;
+		margin-right: 5%;
+	}
+
+	.homeoptions .container > p {
+		display: none;
+	}
+	.homeoptions .col-md-3 {
+		width: 100%;
+		position: relative;
+		margin-bottom: 10px;
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.homeoptions .col-md-3:hover {
+		-webkit-transform: translateY(0) !important;
+		transform: translateY(0) !important;
+	}
+	.homeoptions .col-md-3 .op-icon {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto 0;
+	}
+	.homeoptions .col-md-3 h4, .homeoptions .col-md-3 p {
+		padding-right: 130px;
+	}
+
+	.helpoptions .hlfp {
+		width: 60%;
+	}
+
+	.homeoptions .benefits {
+		background-size: 200px;
+	}
+
+	.myFooter_content_container .footermenu li {
+		width: 100%;
+	}
+	.myFooter_content_container .col-md-4 {
+		margin-bottom: 8px;
+	}
+	.myFooter_content_container .footercontact i {
+		width: 75px;
+	}
+	.myFooter_content_container .social {
+		font-size: 0;
+	}
+	.myFooter_content_container .social i {
+		margin-left: 0;
+	}
+
+	.myFooter_bottom_container .powered {
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+
+    .col-md-2{width:50%}
+
+	/*===- Inside Page -===*/
+	
+	.breadcrumb{
+		display: none;
+	}
+
+	.mobile-menu-trigger {
+		width: 100%;
+		padding: 4px 11px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+    .col-xs-6{width:100%;float:none}
+    .center-xs{text-align:center;}
+}
+
+
+/* =====================- Max Width 360px -===================== */
+@media screen and (max-width: 360px) {
+
+	.top_nav ul li {
+		display: none;
+	}
+	.top_nav ul li:first-child, .top_nav ul li:last-child {
+		display: block;
+	}
+
+	.homeintro {
+		height: 720px !important;
+		padding: 30px 0;
+	}
+	#homeintro .container {
+		top: 10px;
+	}
+	.homeintro h2 {
+		font-size: 25px;
+	}
+	.homeintro h3 {
+		margin-top: 5px;
+		font-size: 12px;
+	}
+
+	.homeoptions h3, .howtoearn h3 {
+		font-size: 18px;
+	}
+
+	.homeoptions .col-md-3 .op-icon {
+		display: none;
+	}
+	.homeoptions .col-md-3 h4, .homeoptions .col-md-3 p {
+		padding-right: 0;
+	}
+
+	.howtoearn .how1, .howtoearn .how2 {
+		background-size: 140px;
+	}
+	.howtoearn .helpoptions .hlfp {
+		width: 100%;
+		padding-bottom: 50px;
+	}
+	.howtoearn .helpoptions .btn-o {
+		float: right !important;
+	}
+	.howtoearn .helpoptions.how2 .btn-o {
+		margin-top: 40px;
+	}
+
+	
+	.myFooter_content_container .col-md-3 {
+		width: 100%;
+		padding-right: 0 !important;
+		padding-left: 0 !important;
+	}
+	.myFooter_content_container .footermenu li {
+		width: 50%;
+	}
+}
